@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.py[cod]
+.DS_Store
+NCHS_-_Leading_Causes_of_Death__United_States.csv
+.openai/
+openai/
+.codex/
+.chatgpt/
+AGENTS.md
+CODEX_TASK.md
+*.openai-download-*
