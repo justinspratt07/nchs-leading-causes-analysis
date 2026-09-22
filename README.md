@@ -52,3 +52,7 @@ Python, pandas, scikit-learn, Matplotlib, and Jupyter Notebook.
 ## Author
 
 [Justin Spratt](https://github.com/justinspratt07)
+
+## Verified baseline and limits
+
+The original CS379 Unit 5 dataset reproduced 55.91% training accuracy and 50.51% test accuracy on 21 September 2026. After removing All causes, 9,880 rows remained; 1,976 were held out. This classifies historical aggregate records, not patient risk or future mortality. Cause-specific death counts/rates are contemporaneous features; random splitting does not demonstrate future-year or unseen-state generalization. This is an instructional baseline.
